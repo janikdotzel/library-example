@@ -11,6 +11,18 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt # Cache the artifacts downloaded by sbt accross CI runs
+
+      - name: Linting
+        run: |
+          cd library; sbt "scalafixAll --check"; cd ..
+          cd service-a; sbt "scalafixAll --check"; cd ..
+          cd service-b; sbt "scalafixAll --check"; cd ..
+      - name: Code style
+        run: |
+          cd library; sbt scalafmtCheck; cd ..
+          cd library; sbt scalafmtCheck; cd ..
+          cd library; sbt scalafmtCheck; cd ..
+
       - name: Run library tests
         run: cd library; sbt +test
       - name: Run service a tests

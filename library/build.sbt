@@ -1,7 +1,6 @@
 import Dependencies._
 
 scalaVersion := "2.13.8"
-version := "0.1.0"
 organizationName := "janikdotzel"
 organization := "io.github.janikdotzel" // used as `groupId`
 name := "library" // used as `artifactId`

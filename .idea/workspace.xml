@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7091567-e16f-428b-b85d-9488a1101116" name="Changes" comment="feat: add ci with GitHub actions">
-      <change beforePath="$PROJECT_DIR$/library/project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-a/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/service-a/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-a/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/service-a/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-b/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/service-b/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-b/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/service-b/build.sbt" afterDir="false" />
+    <list default="true" id="f7091567-e16f-428b-b85d-9488a1101116" name="Changes" comment="feat: split ci and publish workflows">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/janikdotzel/projects/library-example/service-a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/janikdotzel/projects/library-example/service-a&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/service-a" />
@@ -65,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668598925896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: split ci and publish workflows">
+      <created>1668716605844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668716605844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add ci with GitHub actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add ci with GitHub actions" />
+    <MESSAGE value="feat: split ci and publish workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: split ci and publish workflows" />
   </component>
 </project>

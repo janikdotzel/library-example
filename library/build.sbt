@@ -1,7 +1,7 @@
 import Dependencies._
 
 ThisBuild / scalaVersion := "2.13.8"
-ThisBuild / version := "0.2.8"
+ThisBuild / version := "0.2.9"
 ThisBuild / organizationName := "janikdotzel"
 ThisBuild / organization := "io.github.janikdotzel" // used as `groupId`
 ThisBuild / name := "library" // used as `artifactId`

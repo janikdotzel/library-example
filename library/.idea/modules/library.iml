@@ -12,6 +12,8 @@
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/task-temp-directory" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/test-reports" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/sonatype-staging" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/scala-2.12" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

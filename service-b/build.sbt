@@ -13,14 +13,14 @@ scalacOptions += "-Ywarn-unused"
 
 
 // Import Libraries from Local Ivy Repository
-resolvers += Resolver.file("local", file(Path.userHome.absolutePath + "/.ivy2/local"))(Resolver.ivyStylePatterns)
+//resolvers += Resolver.file("local", file(Path.userHome.absolutePath + "/.ivy2/local"))(Resolver.ivyStylePatterns)
 
 lazy val root = (project in file("."))
   .settings(
         name := "service-b",
         libraryDependencies ++= Seq(
               scalaTest % Test,
-              "io.github.janikdotzel" % "library_2.13" % "0.2.9"
+//              "io.github.janikdotzel" % "library_2.13" % "0.2.9"
         )
   )
   .enablePlugins(ScalafmtPlugin, ScalafixPlugin)

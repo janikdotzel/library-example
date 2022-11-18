@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: default#library-example_2.12;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Fri Nov 18 16:29:31 CET 2022[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=integration pubdate=Fri Nov 18 16:29:31 CET 2022 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/janikdotzel/projects/library-example/target/scala-2.12/ivy-0.1.0-SNAPSHOT.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (47ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published library-example_2.12 to /Users/janikdotzel/.ivy2/local/default/library-example_2.12/0.1.0-SNAPSHOT/poms/library-example_2.12.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published library-example_2.12 to /Users/janikdotzel/.ivy2/local/default/library-example_2.12/0.1.0-SNAPSHOT/jars/library-example_2.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published library-example_2.12 to /Users/janikdotzel/.ivy2/local/default/library-example_2.12/0.1.0-SNAPSHOT/srcs/library-example_2.12-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published library-example_2.12 to /Users/janikdotzel/.ivy2/local/default/library-example_2.12/0.1.0-SNAPSHOT/docs/library-example_2.12-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/janikdotzel/.ivy2/local/default/library-example_2.12/0.1.0-SNAPSHOT/ivys/ivy.xml[0m

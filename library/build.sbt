@@ -1,7 +1,7 @@
 import Dependencies._
 
 ThisBuild / scalaVersion := "2.13.8"
-ThisBuild / version := "0.2.9"
+ThisBuild / version := "0.2.10"
 ThisBuild / organizationName := "janikdotzel"
 ThisBuild / organization := "io.github.janikdotzel" // used as `groupId`
 ThisBuild / name := "library" // used as `artifactId`
@@ -22,6 +22,9 @@ val Scala213 = "2.13.10"
 val Scala212 = "2.12.17"
 crossScalaVersions := Seq(Scala213, Scala212)
 crossVersion := CrossVersion.binary
+
+// Throw error in case of a version conflict
+// conflictManager := ConflictManager.strict
 
 // Settings for publishing to sonatype
 import xerial.sbt.Sonatype._
